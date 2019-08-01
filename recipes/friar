@@ -1,0 +1,2 @@
+(friar :fetcher github :repo "warreq/friar"
+       :files (:defaults "*.lua" "*.fnl"))
