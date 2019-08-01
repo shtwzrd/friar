@@ -3,7 +3,13 @@
 _Fennel Repl In Awesome Repl_
 
 ## What?
-Interact with your running AwesomeWM session from inside Emacs, using [Fennel](https://fennel-lang.org), a lua-based Lisp.
+Interact with your running AwesomeWM session from inside Emacs,
+using [Fennel](https://fennel-lang.org), a lua-based Lisp.
+
+Interested in using Fennel for writing your own AwesomeWM configuration?
+Check the `starter-kit` included in this repo.
+It contains an `rc.lua` that bootstraps loading the provided `config.fnl` file,
+which is a line-for-line translation of the default AwesomeWM configuration.
 
 ## Installation
 Via `use-package` with `straight.el`:
