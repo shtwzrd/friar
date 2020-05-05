@@ -35,3 +35,6 @@ if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
   eval `dbus-launch --sh-syntax --exit-with-session`
 fi
 ```
+
+Make sure `dbus-launch` exists on your path -- you may need to install a package like `dbus-x11`.
+
